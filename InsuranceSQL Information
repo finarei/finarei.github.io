@@ -1,4 +1,7 @@
 This project revolved around modelling the database for a hypothetical insurance company using oracle modeller. 
+
+For the file to work make sure to unzip the folder!
+
 In this file the following can be found:
 1. Logical Model
 2. Default Relational Model
