@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: spotify-wrapped-early
+    runtime: python
+    plan: free
+    buildCommand: pip install -r Requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: FLASK_SECRET_KEY
+        generateValue: true
+      - key: SPOTIPY_CLIENT_ID
+        sync: false
+      - key: SPOTIPY_CLIENT_SECRET
+        sync: false
